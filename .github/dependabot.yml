@@ -12,3 +12,10 @@ updates:
       - "Composer upgrades"
     open-pull-requests-limit: 100
     registries: '*'
+
+  - directory: /
+    open-pull-requests-limit: 5
+    package-ecosystem: "github-actions"
+    schedule:
+      interval: daily
+      timezone: "Europe/Berlin"
